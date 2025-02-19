@@ -1,0 +1,47 @@
+EcmaScript: JavaScript padronizado
+
+
+Variaveis (Primitive):
+
+https://www.w3schools.com/js/js_numbers.asp
+
+int - Numero inteiro
+float - Numero quebrado
+double - Float com precisão dupla
+
+
+boolean - True or False - https://www.w3schools.com/js/js_booleans.asp
+
+
+string - Sequencia de caracteres - https://www.w3schools.com/js/js_strings.asp
+
+
+----------------------------------------------------------------------
+Variaveis (object):
+
+Arrays (holda mais de um valor/Lista):
+https://www.w3schools.com/js/js_arrays.asp
+
+
+let - (não pode ser redeclarado) só pode ser alterado dentro do bloco criado --> {}
+https://www.w3schools.com/js/js_let.asp
+
+
+
+const - Numero que não pode ser alterado depois	(redeclarado)
+(pode ser alterado nessa ordem: 
+
+// Create an Array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Change an element:
+
+cars[0] = "Toyota";
+)
+
+Diferenças entre variaveis:
+
+	    |Scope	|Redeclare	|Reassign	|Hoisted	|Binds this
+var	    |No	    |Yes		|Yes	    |Yes		|Yes
+let	    |Yes	|No		    |Yes	    |No		    |No
+const	|Yes	|No		    |No		    |No		    |No
