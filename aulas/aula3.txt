@@ -1,0 +1,11 @@
+Incremento/decremento:
+pega uma variavel e soma/subtrai/multiplica/divide ( +=, -=, *=, /=)
+
+Igualdade (==) - verifica se o valor é igual, sem tipar ele
+Igualdade estrita (===) - verifica se o valor é igual e considera o tipo dele
+Diferença (!=) - verifica se o valor é diferente, sem tipar ele
+Diferença Estrita (!==) - verifica se o valor é diferente considerando o tipo
+
+AND (&&) - Retorna true se ambas expressões forem true
+OR (||) - Retorna true se uma das expressões forem true
+NOT (!) - Inverte o valor boolean (true-->false, false-->true)

@@ -1,0 +1,1 @@
+// se a I é 16~17 ou 70~ Opcional o voto, I<16 = não vota, 

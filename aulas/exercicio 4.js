@@ -10,6 +10,12 @@ var exp = x**y
 var sqrx = Math.sqrt(x)
 var sqry = Math.sqrt(y)
 
+
+
 console.log("Soma: ",sum,"\n","Subtração: ",sbt,"\n","Divisão: ",div,"\n","Multiplicação: ","\n",)
 console.log("\n", sqrx, sqry )
+
+x /=4
+
+console.log(x)
 
