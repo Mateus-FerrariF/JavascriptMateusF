@@ -1,0 +1,42 @@
+Switch e Case
+
+w3school link: https://www.w3schools.com/js/js_switch.asp
+
+basicamente você cria uma variavel, e de acordo com o valor dela ela responde de uma forma especifica, 
+sempre utilizando break para terminar o comando para o valor espeficico.
+se o case não é encontrado você pode deixar um default para executar
+
+ex:
+
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+
+-----------------------------------------------------------------------------------
+Loop
+
+w3school link: https://www.w3schools.com/js/js_loop_for.asp
+
+
+for (let i = 0; i < 5; i++) {
+    "codigo"
+}
+                                                i++
+no exemplo vemos que  enquanto i<5 ele ira somar +1 para o valor da variavel i até que alcance o 5
+
+no exemplo acima ele define a variavel i dentro do proprio loop (let i = 0;), mas pode ser definida por fora como nesse exemplo:
+
+let i = 4;
+for (; i<10; i++) {
+    "código"
+}
+esse loop ira se repetir até que i alcance 10 (começando pelo 4 no exemplo acima)
+
+utilizamos o Let para que o valor da variavel possa ser modificado depois (para a soma de +1 no i)
