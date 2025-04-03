@@ -1,4 +1,4 @@
-
+/*
 //QUESTÃO 1:
 //Input aqui 
 var HorarioEscolar = "N";
@@ -163,9 +163,12 @@ if (Numero%2>0) {
 } else {
     console.log("Número par")
 }
+*/
 
 /* QUESTÃO 10 */
-let N = 5
-for(let i = N; i=1; i--) {
-    console.log(i)
-}
+var N = 100;
+var res = N
+for(let i = 2; i<=N; i++) {
+    res = res*i
+};
+console.log(N,"! =", res)
